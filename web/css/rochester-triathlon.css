@@ -1,0 +1,183 @@
+body {
+  /*padding-top: 5rem;*/
+  background-color: #f8f8f8;
+}
+
+ul.list-unstyled li {
+    font-size: 1.2rem;
+}
+
+.container {
+  /*max-width: 960px;*/
+}
+
+/*.sub-container {
+  max-width: 960px;
+}
+*/
+.races-header {
+  max-width: 700px;
+}
+
+
+.page-header {
+  text-align: center;
+}
+
+.page-header img {
+  width: 80%;
+}
+
+.countdown-item {
+   width: 150px;
+   /*height: 50px;*/
+   margin: .5px;
+   background-color: #88889f;
+   color: white;
+   display: inline-block;
+   text-align: center;
+   text-transform: uppercase;
+   padding-bottom: 5px;
+}
+
+.countdown-item .time {
+    font-size: 2.0rem;
+}
+
+h1.welcome {
+   font-weight: bold;
+}
+
+div.vertical-spacer {
+   height: 100px;
+}
+
+div.vertical-spacer-small {
+   height: 25px;
+}
+
+div.vertical-spacer-medium {
+   height: 65px;
+}
+
+.wrapper {
+  height: 100%;
+  font-family: Helvetica, sans-serif;
+  line-height: 1.5;
+  word-spacing: 2px;
+  letter-spacing: 0.5px;
+}
+
+.fixed {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  height: 100%;
+  width: 100%;
+  color: #eeeeee;
+  text-align: center;
+  display: table;
+}
+
+.fixed.fix-background {
+  background-attachment: fixed;
+}
+
+.fixed h2 {
+  display: table-cell;
+  vertical-align: middle;
+}
+.fixed.section-header {
+   height: 250px;
+   padding-bottom: 40px;
+}
+.fixed.tall-section-header {
+   height: 450px;
+}
+
+.fixed.section-header div.caption {
+   position: relative;
+   margin-top: 100px;
+}
+
+.fixed.section-header div.caption a {
+   font-size: 48px;
+   color: white;
+}
+
+.scroll {
+  background-color: #ffe0f6;
+  padding: 10px 70px;
+  color: #666666;
+}
+.one {
+  background-image: url("../img/tri_004b.jpg");
+}
+.two {
+  background-image: url("../img/tri_005a.jpg");
+}
+.three {
+  background-image: url("../img/tri_007.jpg");
+}
+
+img.race-info {
+   height: 230px;
+   /*opacity: .85;*/
+}
+
+img.race-info:hover {
+   /*opacity: 1;*/
+}
+
+a img.race-info {
+   transition: .5s ease;
+}
+
+a img.race-info:hover{
+   box-shadow: 0 0 0 5px #b3b5b9;
+   transition: .5s ease;
+}
+
+/*div.card-body .card-title a {
+   text-decoration: none;
+}
+
+div.card-body .card-title a:hover {
+   text-decoration: underline;
+}
+*/
+div.card-body .btn-group-lg>.btn, .btn-lg {
+   font-size: 1.5rem;
+}
+
+a.course-map {
+  text-decoration: none;
+}
+
+a.course-map:hover {
+  text-decoration: underline;
+}
+
+ul.list-unstyled li span.map-link {
+    font-size: 0.9rem;
+}
+
+form.d-flex a.social-link {
+  color: #d8d5d5;
+}
+
+form.d-flex a.social-link:hover {
+  color: white;
+}
+
+.countdown-item .time {
+  font-size: 3vw;
+}
+
+.countdown-item {
+  width: 10vw;
+}
+
+.countdown-item .units {
+  font-size: 1vw;
+}
