@@ -181,3 +181,54 @@ form.d-flex a.social-link:hover {
 .countdown-item .units {
   font-size: 1vw;
 }
+
+
+
+td.event-header {
+  background-color:#eee;
+}
+
+.event-header {
+  background-color: #e;
+  border-radius: 2px;
+}
+
+table.race  th {
+  background-color: #eee;
+}
+
+/* For table tiger striping by jQuery (use <table class='tiger-stripe'>) */
+.oddrow {
+  background-color: #eee;
+}
+
+table.race td.time {
+  width: 200px;
+}
+
+table.race td, table.race th {
+  vertical-align: middle;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 10px;
+}
+
+table.race th {
+  font-size: x-large;
+}
+
+table.race td ul {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+table.race th span.strong {
+  color: darkred;
+}
+
+.item-fade {
+  vertical-align: top;
+  transition: opacity 0.3s;
+  -webkit-transition: opacity 0.3s;
+  opacity: 1;
+}
