@@ -3,8 +3,34 @@ body {
   background-color: #f8f8f8;
 }
 
+nav.navbar div.sub-nav {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.fixed-top {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+}
+
+
+nav.navbar .navbar-brand {
+  font-size: 1.75rem;
+}
+
+nav.navbar div.left-nav{
+  justify-content: left;
+}
+
+nav.navbar div.right-nav{
+  justify-content: right;
+}
+
 ul.list-unstyled li {
-    font-size: 1.2rem;
+  font-size: 1.2rem;
 }
 
 .container {
@@ -171,18 +197,16 @@ form.d-flex a.social-link:hover {
 }
 
 .countdown-item .time {
-  font-size: 3vw;
+  font-size: calc(12px + 3.0vw);
 }
 
 .countdown-item {
-  width: 10vw;
+  width: calc(30px + 10.0vw);
 }
 
 .countdown-item .units {
-  font-size: 1vw;
+  font-size: calc(8px + 1.0vw);
 }
-
-
 
 td.event-header {
   background-color:#eee;
